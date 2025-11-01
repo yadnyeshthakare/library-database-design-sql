@@ -1,12 +1,13 @@
 <p align="center">
-  <img src="docs/library_digital_banner.png" width="700">
+  <img src="library_digital_banner.png" width="700">
 </p>
 
 <p align="center">
-  <img src="docs/erd_diagram.png" width="600">
+  <img src="erd_diagram.png" width="600">
 </p>
 
 <p align="center">
-  <img src="docs/library_environment.png" width="500">
+  <img src="library_environment.png" width="500">
 </p>
+
 
