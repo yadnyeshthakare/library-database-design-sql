@@ -47,6 +47,7 @@ A library environment where members borrow and return books, managed through an 
 
 
 🏗️ Project Structure
+
 sql/
 ├── 001_create_tables.sql        -- Defines all entity tables
 ├── 002_add_constraints.sql      -- Adds primary/foreign keys, indexes
@@ -118,15 +119,16 @@ You can enhance this project by:
 •	Creating stored procedures for issue/return transactions
 •	Building Power BI or Tableau dashboards using the SQL views
 
-👨‍💻 Author – Yadnyesh Thakare
-📧   thakareyadnyesh@gmail.com
-🔗 LinkedIn -linkedin.com/in/yadnyesh-thakare
 
+👨‍💻  Author – Yadnyesh Thakare
+🔗  LinkedIn -linkedin.com/in/yadnyesh-thakare
+📧  thakareyadnyesh@gmail.com
 
 🏁 Summary:
 
 This project applies a structured, modular SQL development approach — separating table creation, constraints, analytical queries, and data-quality checks.
 It reflects strong database design, data analysis, and governance practices aligned with real-world enterprise workflows.
+
 
 
 
