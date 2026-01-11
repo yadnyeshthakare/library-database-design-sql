@@ -1,25 +1,30 @@
 📚 Library Management System (SQL Project)
  
-A fully structured SQL-based Library Management System designed using PostgreSQL, demonstrating data modeling, query logic, and data governance following enterprise-grade standards.
-This project simulates how real data teams manage relational systems, ensuring clean schema design, referential integrity, and data quality checks.
+A structured SQL-based Library Management System built using PostgreSQL. This project demonstrates practical database design, data integrity, and analytical querying on a realistic multi-table system.
+
+It reflects how relational databases are created, populated, validated, and queried in real-world analytics and operations workflows.
+
 
 🧭 Project Overview
 
-Project Title: Library Management System
-Level: Intermediate
-Database: PostgreSQL (library_management_system)
+Project Title: Library Management System  
+Level: Intermediate  
+Database: PostgreSQL   
 
-This project demonstrates the implementation of a complete Library Management System using SQL.
 It includes creating and managing tables, performing CRUD operations, defining relationships, and executing analytical queries.
 The goal is to showcase skills in database design, data manipulation, and query optimization aligning with professional data engineering and analytics practices.
 
 Core Features:
 
-•	Set up the Library Database: Create and populate tables for branches, employees, members, books, issued status, and return status.  
-•	CRUD Operations: Perform Create, Read, Update, and Delete actions on entities.  
-•	CTAS (Create Table As Select): Create new tables dynamically from existing queries.  
-•	Data Validation: Identify and handle null values, duplicates, and inconsistent records.  
-•	Analytical Reporting: Generate insights like category-wise rentals, branch performance, and revenue analysis.  
+- Multi-table relational schema (books, members, employees, branches, issues, returns)
+- Primary and foreign key constraints
+- Sample data for testing and analysis
+- CRUD operations (insert, update, delete)
+- Derived tables using CTAS (Create Table As Select)
+- Analytical queries for business-style questions
+- Reporting views
+- Data quality validation (nulls, duplicates, integrity checks)
+- Schema migration script  
 
 🖼️ Project Visualization
 
@@ -46,78 +51,64 @@ Core Features:
 A library environment where members borrow and return books, managed through an efficient, data-driven system.
 
 
-🏗️ Project Structure  
+🏗️ Project Structure    
 
-sql/  
-├── 001_create_tables.sql        -- Defines all entity tables  
-├── 002_add_constraints.sql      -- Adds primary/foreign keys, indexes  
-├── 003_sample_queries.sql       -- CRUD and analytical examples  
-├── 004_views_and_reports.sql    -- Reporting views and summaries  
-├── 005_data_quality_checks.sql  -- Null/duplicate/integrity validations  
-├── 006_seed_data.sql            -- Inserts sample data  
-
+000_migration_from_original_to_final.sql -- Schema migration   
+001_create_tables.sql -- Table definitions  
+002_add_constraints.sql -- Primary & foreign keys    
+003_seed_data.sql -- Sample data insertion    
+004_sample_queries.sql -- CRUD & analytical queries  
+005_views_and_reports.sql -- Reporting views  
+006_data_quality_checks.sql -- Data validation queries  
 
 ⚙️ How to Run the Project:
 
-1.	Create a new PostgreSQL database
-2.	CREATE DATABASE library_management_system;
-3.	Run SQL files in this order:
-1.	001_create_tables.sql
-2.	002_add_constraints.sql
-3.	006_seed_data.sql
-4.	003_sample_queries.sql
-5.	004_views_and_reports.sql
-6.	005_data_quality_checks.sql
-4.	Validate structure
-5.	\dt     -- Show tables
-6.	\dv     -- Show views
+
+1. Create the database:  
+CREATE DATABASE library_management_system;  
+2. Run SQL files in this order:  
+    1_create_tables.sql  
+    2_add_constraints.sql  
+    3_seed_data.sql  
+    4_sample_queries.sql  
+    5_views_and_reports.sql  
+    6_data_quality_checks.sql  
+
+If upgrading from an older schema:  
+   0_migration_from_original_to_final.sql  
+
+3.Verify:
+\dt   -- list tables
+\dv   -- list views
 
 
 📊 Skills Demonstrated:
 
-🧱 Database Design  
-•	Normalized schema (3NF)  
-•	Audit columns (created_at, updated_at)  
-
-🔗 Relationships & Constraints  
-•	Primary and foreign keys  
-•	Referential integrity enforcement  
-•	Indexing for optimized joins  
-
-⚡ SQL Operations  
-•	CRUD operations  
-•	Aggregation and grouping  
-•	Business logic queries  
-
-📈 Analytical Views & Reports  
-•	Category-wise book rentals  
-•	Branch performance reports  
-•	Revenue summaries by author or category  
-
-✅ Data Quality & Governance  
-•	Null and duplicate detection  
-•	Consistency and range validation  
-•	Quality assurance queries  
+- Relational database design (normalized schema)  
+- Primary & foreign key constraints  
+- CRUD operations and analytical SQL queries  
+- Aggregations and business-style reporting  
+- Data quality checks (nulls, duplicates, consistency)  
+- Basic indexing for join performance  
 
 🧩 Tools & Technologies  
-• Tool	Purpose    
-• PostgreSQL	Database engine    
-• pgAdmin4	Database client    
-• VS Code	SQL scripting and documentation    
-• Git / GitHub	Version control and collaboration    
-• Excel	Data validation and exploration    
+• PostgreSQL  
+• pgAdmin  
+• VS Code  
+• Git & GitHub  
+• Excel (basic validation/exploration)  
 
-📘 Example Use Cases  
+## Example Use Cases  
 •	Track book issues, returns, and overdue status  
 •	Monitor branch performance and employee workloads  
 •	Identify expensive books or popular categories  
 •	Generate category-wise revenue and utilization reports  
 
-🚀 Optional Extensions  
-You can enhance this project by:  
-•	Adding triggers to auto-update updated_at  
-•	Creating stored procedures for issue/return transactions  
-•	Building Power BI or Tableau dashboards using the SQL views  
+## Possible Extensions  
+
+- Add triggers to maintain audit columns automatically        
+- Create stored procedures for issue/return workflows      
+- Build dashboards using Power BI or Tableau on top of SQL views      
 
 
 👨‍💻  Author – Yadnyesh Thakare  
@@ -126,8 +117,10 @@ You can enhance this project by:
 
 🏁 Summary:
 
-This project applies a structured, modular SQL development approach — separating table creation, constraints, analytical queries, and data-quality checks.
-It reflects strong database design, data analysis, and governance practices aligned with real-world enterprise workflows.
+This project follows a modular SQL workflow covering schema design, constraints, data loading, CRUD operations, analytical querying, reporting, data validation, and schema migration.  
+
+It demonstrates practical SQL and relational database skills aligned with real-world enterprise workflows.  
+
 
 
 
