@@ -3,8 +3,7 @@
 
 select  issued_emp_id, count(*) 
 from issued_status 
-group by 1 
-having count(issued_id) >1
+group by 1  having count(issued_id) >1
 
 --6] cretae summary tables :used CTAS to generate new tables based on query results-each book & total book_issued_cnt
 
@@ -81,10 +80,12 @@ select * from expensive_books
 select *from issued_status
 select * from return_status
 
-select * from 
+select distinct issued_book_name from  
+	
 	issued_status as iss
 	left join 
 	return_status as ret
 	on  iss.issued_id= ret.issued_id
 	where  ret.return_id is null
+
 	
