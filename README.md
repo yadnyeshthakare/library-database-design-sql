@@ -77,9 +77,9 @@ CREATE DATABASE library_management_system;
 If upgrading from an older schema:  
    0_migration_from_original_to_final.sql  
 
-3.Verify:
-\dt   -- list tables
-\dv   -- list views
+3.Verify:  
+\dt   -- list tables  
+\dv   -- list views  
 
 
 📊 Skills Demonstrated:
@@ -120,6 +120,7 @@ If upgrading from an older schema:
 This project follows a modular SQL workflow covering schema design, constraints, data loading, CRUD operations, analytical querying, reporting, data validation, and schema migration.  
 
 It demonstrates practical SQL and relational database skills aligned with real-world enterprise workflows.  
+
 
 
 
