@@ -1,11 +1,11 @@
-📚 Library Management System (SQL Project)
+# Library Management System (SQL Project)
  
 A structured SQL-based Library Management System built using PostgreSQL. This project demonstrates practical database design, data integrity, and analytical querying on a realistic multi-table system.
 
 It reflects how relational databases are created, populated, validated, and queried in real-world analytics and operations workflows.
 
 
-🧭 Project Overview
+## Project Overview
 
 Project Title: Library Management System  
 Level: Intermediate  
@@ -14,7 +14,7 @@ Database: PostgreSQL
 It includes creating and managing tables, performing CRUD operations, defining relationships, and executing analytical queries.
 The goal is to showcase skills in database design, data manipulation, and query optimization aligning with professional data engineering and analytics practices.
 
-Core Features:
+## Features:
 
 - Multi-table relational schema (books, members, employees, branches, issues, returns)
 - Primary and foreign key constraints
@@ -26,21 +26,21 @@ Core Features:
 - Data quality validation (nulls, duplicates, integrity checks)
 - Schema migration script  
 
-🖼️ Project Visualization
+## Project Visualization
 
 <p align="center">
   <img src="library_digital_banner.png" width="700">
   <br><em>System Overview – Digital Library Management Architecture</em>
 </p>
 
-🧠 Database ER Diagram
+### Database ER Diagram
 
 <p align="center">
   <img src="erd_diagram.png" width="600">
   <br><em>Database Schema – Entity-Relationship Diagram for Library System</em>
 </p>
 
-💡 Concept Visualization
+### Concept Visualization
 
 <p align="center">
   <img src="library_environment.jpg" width="500">
@@ -51,7 +51,7 @@ Core Features:
 A library environment where members borrow and return books, managed through an efficient, data-driven system.
 
 
-🏗️ Project Structure    
+## Project Structure    
 
 000_migration_from_original_to_final.sql -- Schema migration   
 001_create_tables.sql -- Table definitions  
@@ -61,7 +61,7 @@ A library environment where members borrow and return books, managed through an 
 005_views_and_reports.sql -- Reporting views  
 006_data_quality_checks.sql -- Data validation queries  
 
-⚙️ How to Run the Project:
+## How to Run:
 
 
 1. Create the database:  
@@ -82,7 +82,7 @@ If upgrading from an older schema:
 \dv   -- list views  
 
 
-📊 Skills Demonstrated:
+## Skills Demonstrated:
 
 - Relational database design (normalized schema)  
 - Primary & foreign key constraints  
@@ -91,7 +91,7 @@ If upgrading from an older schema:
 - Data quality checks (nulls, duplicates, consistency)  
 - Basic indexing for join performance  
 
-🧩 Tools & Technologies  
+## Tools Used  
 • PostgreSQL  
 • pgAdmin  
 • VS Code  
@@ -110,16 +110,17 @@ If upgrading from an older schema:
 - Create stored procedures for issue/return workflows      
 - Build dashboards using Power BI or Tableau on top of SQL views      
 
+## Author
+Yadnyesh Thakare  
+LinkedIn: linkedin.com/in/yadnyesh-thakare  
+Email: thakareyadnyesh@gmail.com  
 
-👨‍💻  Author – Yadnyesh Thakare  
-🔗  LinkedIn -linkedin.com/in/yadnyesh-thakare  
-📧  thakareyadnyesh@gmail.com  
-
-🏁 Summary:
+## Summary:
 
 This project follows a modular SQL workflow covering schema design, constraints, data loading, CRUD operations, analytical querying, reporting, data validation, and schema migration.  
 
 It demonstrates practical SQL and relational database skills aligned with real-world enterprise workflows.  
+
 
 
 
