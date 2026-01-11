@@ -9,10 +9,10 @@ select * from branch
 select count (*) from branch
 
 create table employees
-		(emp_id	 varchar(25) primary key,
+		(emp_id	 	varchar(25) primary key,
 		emp_name	varchar(25),
 		position	varchar(25),
-		salary	  int ,
+		salary	 	 int ,
 		branch_id   varchar(25)      --- FM
 		)
 
@@ -22,13 +22,13 @@ select count(*) from employees
 
 
 create table book
-		(isbn	varchar (20)  primary key,
-		book_title	varchar(60),
-		category	 varchar(20),
-		rental_price	float,
-		status	  varchar(15),
-		author	  varchar(30),
-		publisher   varchar(35) 
+		(isbn			varchar (20)  primary key,
+		book_title		varchar(60),
+		category	 	varchar(20),
+		rental_price	numeric(10,2),
+		status	  		varchar(15),
+		author	  		varchar(30),
+		publisher  	 varchar(35) 
 		)
 
 select * from book
@@ -47,7 +47,7 @@ select count(*) from members
 
 
 create table issued_status
-		(issued_id	 varchar (20)  primary key,
+		(issued_id			 varchar (20)  primary key,
 		issued_member_id	varchar (20),   --- FM
 		issued_book_name	varchar(60),
 		issued_date	      date,
@@ -57,9 +57,10 @@ create table issued_status
 
 
 create table  return_status
-		(return_id	  varchar(15)  primary key,
-		issued_id		varchar(15),
+		(return_id	  		varchar(15)  primary key,
+		issued_id			varchar(15),
 		return_book_name		varchar(12),
 		return_date	   		date,
 		return_book_isbn		varchar(12)
 )
+
