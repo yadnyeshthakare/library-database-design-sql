@@ -19,8 +19,8 @@ The goal is to showcase skills in database design, data manipulation, and query 
 - Multi-table relational schema (books, members, employees, branches, issues, returns)
 - Primary and foreign key constraints
 - Sample data for testing and analysis
-- CRUD operations (insert, update, delete)
-- Derived tables using CTAS (Create Table As Select)
+- CRUD operations
+- Derived tables using CTAS
 - Analytical queries for business-style questions
 - Reporting views
 - Data quality validation (nulls, duplicates, integrity checks)
@@ -120,6 +120,7 @@ Email: thakareyadnyesh@gmail.com
 This project follows a modular SQL workflow covering schema design, constraints, data loading, CRUD operations, analytical querying, reporting, data validation, and schema migration.  
 
 It demonstrates practical SQL and relational database skills aligned with real-world enterprise workflows.  
+
 
 
 
