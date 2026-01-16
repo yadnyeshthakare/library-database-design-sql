@@ -7,13 +7,13 @@ It demonstrates how operational data is modeled and prepared for reporting and a
 
 ## Project Overview
 
-Domain: Library operations
-Database: PostgreSQL
-Tables: 6 (books, members, loans, etc.)
-Focus: schema design, constraints, joins, analytical queries
+Domain: Library operations  
+Database: PostgreSQL  
+Tables: 6 (books, members, loans, etc.)  
+Focus: schema design, constraints, joins, analytical queries  
 
-It includes creating and managing tables, performing CRUD operations, defining relationships, and executing analytical queries.
-The goal is to showcase skills in database design, data manipulation, and query optimization aligning with professional data engineering and analytics practices.
+It includes creating and managing tables, performing CRUD operations, defining relationships, and executing analytical queries.  
+The goal is to showcase skills in database design, data manipulation, and query optimization aligning with professional data engineering and analytics practices.  
 
 ## Features:
 
@@ -121,6 +121,7 @@ Email: thakareyadnyesh@gmail.com
 This project follows a modular SQL workflow covering schema design, constraints, data loading, CRUD operations, analytical querying, reporting, data validation, and schema migration.  
 
 It demonstrates practical SQL and relational database skills aligned with real-world enterprise workflows.  
+
 
 
 
